@@ -14,7 +14,7 @@ setup(
         "torch", 
         "requests",
         "sentencepiece",
-        "mysql"
+        "mysql-connector-python"
     ],
     author="We-Bee Tech",
     description="AI-powered newsroom assistant using Gemini 2.0",
