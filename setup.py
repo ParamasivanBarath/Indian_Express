@@ -13,7 +13,8 @@ setup(
         "transformers", 
         "torch", 
         "requests",
-        "sentencepiece"
+        "sentencepiece",
+        "mysql"
     ],
     author="We-Bee Tech",
     description="AI-powered newsroom assistant using Gemini 2.0",
