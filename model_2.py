@@ -37,7 +37,7 @@ class NewsroomAI:
     def __init__(self):
         load_dotenv()
         genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-        self.model = genai.GenerativeModel('gemini-pro')
+        self.model = genai.GenerativeModel('gemini-2.0-flash')
         self.voice_generator = VoiceGenerator()
         
     def generate_article(self, topic, style, length, additional_requirements=None):
