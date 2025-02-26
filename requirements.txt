@@ -8,9 +8,7 @@ transformers
 torch 
 requests
 sentencepiece
-mysql-connector-python
-mysqlclient
-SQLALchemy
+
 
 
 
